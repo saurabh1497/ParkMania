@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.admin.myapplication.SecondActivity"
+    android:background="@drawable/backgnd"
+    >
+
+    <Button
+        android:text="Click here to book a slot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:id="@+id/button3"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        android:background="@android:color/holo_orange_light" />
+
+    <TextView
+        android:text="You have successfully logged in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="98dp"
+        android:id="@+id/textView4"
+        android:textSize="22sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:text="Near-by Parking Areas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:id="@+id/button12"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+        android:background="@android:color/holo_orange_light"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:text="Park nearest to your location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:id="@+id/button40"
+        android:textStyle="bold"
+        android:background="@android:color/holo_orange_light" />
+
+</RelativeLayout>

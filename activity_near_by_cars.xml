@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_near_by_cars"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.admin.signup.NearByCarsActivity"
+    android:background="@drawable/backgnd"
+    >
+
+    <TextView
+        android:text="4-Wheeler Parking Slots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView39"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary" />
+
+    <View
+        android:layout_width="7dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="230dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/imageButton"
+
+        android:layout_centerHorizontal="true" />
+
+
+
+
+
+    <Button
+        android:text="CR01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView39"
+        android:layout_alignLeft="@+id/textView39"
+        android:layout_alignStart="@+id/textView39"
+        android:layout_marginTop="37dp"
+        android:id="@+id/button40"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:text="CR03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button40"
+        android:layout_alignRight="@+id/button40"
+        android:layout_alignEnd="@+id/button40"
+        android:layout_marginTop="36dp"
+        android:id="@+id/button43"
+        android:textStyle="bold"
+        android:background="@android:color/holo_red_dark" />
+
+    <Button
+        android:text="CR02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button42"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/button40"
+        android:layout_alignBottom="@+id/button40"
+        android:layout_alignRight="@+id/textView39"
+        android:layout_alignEnd="@+id/textView39"
+        android:background="@android:color/holo_red_dark" />
+
+    <Button
+        android:text="CR04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button44"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/button43"
+        android:layout_alignBottom="@+id/button43"
+        android:layout_alignLeft="@+id/button42"
+        android:layout_alignStart="@+id/button42"
+        android:background="@color/colorPrimaryDark" />
+
+</RelativeLayout>

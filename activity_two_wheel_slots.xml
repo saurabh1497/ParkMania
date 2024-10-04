@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.admin.signup.TwoWheelSlotsActivity"
+    android:background="@drawable/backgnd"
+    >
+
+    <View
+        android:layout_width="7dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="70dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/imageButton"
+
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="A03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn1"
+        android:layout_alignLeft="@+id/btn1"
+        android:layout_alignStart="@+id/btn1"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="43dp"
+        android:id="@+id/button16" />
+
+    <Button
+        android:text="A05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:id="@+id/button18"
+        android:layout_below="@+id/button16"
+        android:layout_alignLeft="@+id/button16"
+        android:layout_alignStart="@+id/button16"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:text="A06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button18"
+        android:layout_alignLeft="@+id/button17"
+        android:layout_alignStart="@+id/button17"
+        android:id="@+id/button19"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:text="A07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:id="@+id/button20"
+        android:layout_below="@+id/button18"
+        android:layout_alignLeft="@+id/button18"
+        android:layout_alignStart="@+id/button18"
+        android:background="@android:color/holo_red_dark" />
+
+    <Button
+        android:text="A08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button21"
+        android:layout_alignBaseline="@+id/button20"
+        android:layout_alignBottom="@+id/button20"
+        android:layout_alignLeft="@+id/button19"
+        android:layout_alignStart="@+id/button19"
+        android:background="@android:color/holo_red_dark" />
+
+    <Button
+        android:text="A04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button17"
+        android:layout_alignBaseline="@+id/button16"
+        android:layout_alignBottom="@+id/button16"
+        android:layout_alignRight="@+id/textView12"
+        android:layout_alignEnd="@+id/textView12"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:text="2-Wheeler Parking Slots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textView12"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:text="A01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:layout_below="@+id/textView12"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_marginTop="33dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:text="A02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button15"
+        android:layout_alignBaseline="@+id/btn1"
+        android:layout_alignBottom="@+id/btn1"
+        android:layout_alignRight="@+id/textView12"
+        android:layout_alignEnd="@+id/textView12"
+        android:background="@color/colorPrimaryDark" />
+
+</RelativeLayout>
